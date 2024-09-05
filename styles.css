@@ -12,9 +12,9 @@
   
   .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    padding: 25px;
     background-color: #0a0a23;
     color: #fff;
     border-bottom: 4px solid #fdb347;
@@ -22,13 +22,14 @@
   }
 
   #github-link {
-    position: absolute;
-    left: 32px;
+    margin-right:auto
   }
 
 #title {
-    text-align: center;
-    flex-grow: 1;
+  position: relative;
+  left: -45px;
+  text-align: center;
+  flex-grow: 1;
 }
   
   .gallery {
